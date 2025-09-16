@@ -1,0 +1,40 @@
+@page "/events"
+@using EventEaseApp.Models
+@using EventEaseApp.Services
+@inject AppState AppState
+
+<h3>Upcoming Events</h3>
+
+<div class="row">
+    @foreach (var ev in eventsList)
+    {
+        <div class="col-md-4 mb-3">
+            <EventCard Event="ev" OnRegister="(tickets) => Register(ev.Id, tickets)" />
+        </div>
+    }
+</div>
+
+@code {
+    // Rename the variable so it doesn't clash with the component class name "Events"
+    private List<Event> eventsList = new()
+    {
+        new Event { Id = 1, Title = "Tech Conference", Description = "Latest trends in technology", Date = DateTime.Now.AddDays(5), Location = "New York" },
+        new Event { Id = 2, Title = "Music Festival", Description = "Enjoy live music and fun", Date = DateTime.Now.AddDays(10), Location = "Los Angeles" },
+        new Event { Id = 3, Title = "Startup Meetup", Description = "Networking with founders", Date = DateTime.Now.AddDays(15), Location = "San Francisco" }
+    };
+
+    private void Register(int eventId, int tickets)
+    {
+        var registration = new RegistrationModel
+        {
+            EventId = eventId,
+            FullName = "Demo User",
+            Email = "demo@example.com",
+            Age = 25
+        };
+
+        AppState.AddRegistration(registration);
+    }
+}
+
+
