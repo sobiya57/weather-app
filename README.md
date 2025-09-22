@@ -1,41 +1,51 @@
-# 🌦️ Weather App
 
-A responsive weather web application built with **HTML, CSS, and JavaScript**.  
-It fetches live weather data from the **OpenWeather API** and shows both current weather and a 5-day forecast.  
-Deployed using **Netlify**.
+# 🌦️ Weather App  
 
----
+A simple and responsive weather application that allows users to check real-time weather information and a 5-day forecast for any city worldwide.  
+The app uses the **OpenWeather API** to fetch data and provides an easy-to-use interface where users can search by city name or detect their current location.  
+It also includes a toggle to switch between **Celsius** and **Fahrenheit**, making it convenient for a global audience.  
 
-## 🔗 Live Demo
-👉 [Weather App](https://sobiya-weather-app.netlify.app)
+🔗 **Live Demo**: [Weather App on Netlify](https://sobiya-weather-app.netlify.app)  
 
 ---
 
-## ✨ Features
-- 🔍 Search weather by **city name**
-- 📍 Get weather using **current location (Geolocation)**
-- 🌡️ Shows **temperature, humidity, description, and weather icons**
-- 📅 Displays **5-day forecast**
-- 🔄 Toggle between **°C (Celsius)** and **°F (Fahrenheit)**
-- 📱 Mobile-friendly responsive design
+## ⚙️ Tech Stack  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (Vanilla JS)**  
+- **OpenWeather API**  
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla JS)
-- **API**: [OpenWeather API](https://openweathermap.org/api)
-- **Deployment**: Netlify
+## ✨ Features  
+- 🔍 Search weather by **city name**  
+- 📍 Detect weather using **current location (Geolocation)**  
+- 🌡️ Toggle between **Celsius & Fahrenheit**  
+- 📅 Shows **5-day forecast with icons**  
+- 📱 Responsive design  
 
 ---
 
-## 📸 Screenshot
-![Weather App Screenshot](screenshot.png)
+## 📸 Screenshots  
+
+### 🏠 Home Page  
+![Home](screenshot/home.png)  
+
+### 🌡️ Weather in Celsius  
+![Mumbai Celsius](screenshot/mumbai-celsius.png)  
+
+### 🌡️ Weather in Fahrenheit  
+![Mumbai Fahrenheit](screenshot/mumbai-fahrenheit.png)  
 
 ---
+👩‍💻 Author
 
-## ⚙️ Setup & Installation
+Sobiya Begum
+🔗 GitHub Profile
 
-1. Clone the repository:
+## 🚀 Setup & Installation  
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/sobiya57/weather-app.git
    cd weather-app
