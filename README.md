@@ -1,27 +1,25 @@
+# 🌦 Weather App  
 
-# 🌦️ Weather App  
-
-A simple and responsive weather application that allows users to check real-time weather information and a 5-day forecast for any city worldwide.  
-The app uses the **OpenWeather API** to fetch data and provides an easy-to-use interface where users can search by city name or detect their current location.  
-It also includes a toggle to switch between **Celsius** and **Fahrenheit**, making it convenient for a global audience.  
-
-🔗 **Live Demo**: [Weather App on Netlify](https://sobiya-weather-app.netlify.app)  
+🔗 **Live Demo:** [sobiya-weather-app.netlify.app](https://sobiya-weather-app.netlify.app)  
 
 ---
 
-## ⚙️ Tech Stack  
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (Vanilla JS)**  
-- **OpenWeather API**  
+## 📌 Description  
+A simple and responsive Weather App that allows users to:  
+- Search weather by **city name**  
+- Detect weather using **current location (Geolocation)**  
+- Toggle between **Celsius & Fahrenheit**  
+- View a **5-day forecast with icons**  
+
+Deployed on **Netlify** for easy access.  
 
 ---
 
-## ✨ Features  
-- 🔍 Search weather by **city name**  
-- 📍 Detect weather using **current location (Geolocation)**  
-- 🌡️ Toggle between **Celsius & Fahrenheit**  
-- 📅 Shows **5-day forecast with icons**  
+## ✨ Features
+- 🔍 Search weather by city name  
+- 📍 Detect weather using current location (Geolocation)  
+- 🌡 Toggle between Celsius & Fahrenheit  
+- 📅 Shows 5-day forecast with icons  
 - 📱 Responsive design  
 
 ---
@@ -31,17 +29,19 @@ It also includes a toggle to switch between **Celsius** and **Fahrenheit**, maki
 ### 🏠 Home Page  
 ![Home](screenshot/home.png)  
 
-### 🌡️ Weather in Celsius  
+### 🌡 Weather in Celsius  
 ![Mumbai Celsius](screenshot/mumbai-celsius.png)  
 
-### 🌡️ Weather in Fahrenheit  
+### 🌡 Weather in Fahrenheit  
 ![Mumbai Fahrenheit](screenshot/mumbai-fahrenheit.png)  
 
 ---
-👩‍💻 Author
 
-Sobiya Begum
-🔗 GitHub Profile
+## 👩‍💻 Author  
+**Sobiya Begum**  
+🔗 [GitHub Profile](https://github.com/sobiya57)  
+
+---
 
 ## 🚀 Setup & Installation  
 
